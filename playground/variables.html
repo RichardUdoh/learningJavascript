@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,23 @@
     <title>Variables!</title>
     <link rel="stylesheet" href="../base.css">
 </head>
+
 <body>
     <script>
-        //function scoped var 
-        var first = 'wes'; //variable declaration statement
-        
-        //block scoped let or const
-        let age = 300;
+        // function scoped var
+        const first = 'wes'; // variable declaration statement
+
+        // block scoped let or const
+        const age = 300;
         const cool = true;
-        console.log(first); //function call statement
+        console.log(first, age); // function call statement
 
         if (age > 10) {
             console.log('you are old');
+        } else {
+            console.log('you are young');
         }
-        else {
-                console.log('you are young');
-            }
-
     </script>
 </body>
+
 </html>
