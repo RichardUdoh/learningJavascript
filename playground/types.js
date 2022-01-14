@@ -1,5 +1,6 @@
 /* eslint-disable */
 
+/*
 const name = 'richi';
 const middle = 'SUNDAY TOM';
 const last = `Udoh`;
@@ -35,3 +36,17 @@ const html = `
     `;
 
     document.body.innerHTML = html; 
+
+    */
+
+    const age = 100;
+    const name = 'richi';
+
+    const smarties = 20;
+    const kids = 3;
+    const eachKidGets = Math.floor(smarties / kids);
+    const dadGets = smarties % kids;
+    console.log(`Each kids get ${eachKidGets}.`);
+    console.log(`${dadGets} smarties will be left for Dady.`);
+
+
