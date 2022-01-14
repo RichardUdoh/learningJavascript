@@ -39,6 +39,7 @@ const html = `
 
     */
 
+    /*
     const age = 100;
     const name = 'richi';
 
@@ -49,4 +50,10 @@ const html = `
     console.log(`Each kids get ${eachKidGets}.`);
     console.log(`${dadGets} smarties will be left for Dady.`);
 
+*/
 
+const person = {
+    name: 'Richard',
+    last: 'Udoh',  
+    age: 100
+};
