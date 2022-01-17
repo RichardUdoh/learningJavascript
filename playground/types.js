@@ -51,9 +51,18 @@ const html = `
     console.log(`${dadGets} smarties will be left for Dady.`);
 
 */
-
+/*
 const person = {
     name: 'Richard',
     last: 'Udoh',  
     age: 100
 };
+
+*/
+
+let isDrawing = false;
+let age = 18;
+const ofAge = age > 19;
+console.log(ofAge);
+
+age = 100;
